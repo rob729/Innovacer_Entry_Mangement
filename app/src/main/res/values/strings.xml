@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Entry</string>
+    <string name="check_in">Check In</string>
+    <string name="check_out">Check Out</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="visitor_details">Visitor Details</string>
+    <string name="host_details">Host Details</string>
+    <string name="next">Next</string>
+    <string name="visitor_name">Visitor Name</string>
+</resources>

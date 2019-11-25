@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- margin specifics -->
+    <dimen name="layout_margin_extra_small">2dp</dimen>
+    <dimen name="layout_margin_small">6dp</dimen>
+    <dimen name="layout_margin_medium">8dp</dimen>
+    <dimen name="layout_margin_moderate">10dp</dimen>
+    <dimen name="layout_margin_large">16dp</dimen>
+    <dimen name="layout_margin_extra_large">32dp</dimen>
+    <dimen name="layout_margin_extreme_large">56dp</dimen>
+    <dimen name="layout_margin_search_view">100dp</dimen>
+    <dimen name="layout_margin_none">0dp</dimen>
+
+    <!-- padding specifics -->
+    <dimen name="padding_extra_small">2dp</dimen>
+    <dimen name="padding_small">6dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="padding_extra_large">32dp</dimen>
+    <dimen name="padding_payment">12dp</dimen>
+</resources>
