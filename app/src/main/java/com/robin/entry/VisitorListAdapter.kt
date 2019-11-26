@@ -32,7 +32,8 @@ class VisitorListAdapter(val visitorViewModel: VisitorViewModel) :
         holder.bind(item, visitorViewModel)
     }
 
-    class ViewHolder(val binding: ItemRowBinding) : RecyclerView.ViewHolder(binding.root) {
+    class ViewHolder(val binding: ItemRowBinding) :
+        RecyclerView.ViewHolder(binding.root) {
 
         fun bind(item: Visitor, visitorViewModel: VisitorViewModel) {
             binding.ProfileName.text = item.name
@@ -49,10 +50,10 @@ class VisitorListAdapter(val visitorViewModel: VisitorViewModel) :
             val currentTime: Date = Calendar.getInstance().time
             val address =
                 "2nd and 9th Floor, Tower 3, Candor Techspace, Rajat Vihar, Block B, Industrial Area, Sector 62, Noida, Uttar Pradesh 201309"
-            return " Visitor Name: ${visitor.name} \n Visitor Phone Number: ${visitor.phoneNumber} \n Check In Time: ${visitor.inTime} \n Check Out Time:${SimpleDateFormat(
+            return "Visitor Name: ${visitor.name} \nVisitor Phone Number: ${visitor.phoneNumber} \nCheck In Time: ${visitor.inTime} \nCheck Out Time: ${SimpleDateFormat(
                 "HH:mm",
                 Locale.ENGLISH
-            ).format(currentTime.time)} \n Host Name: ${visitor.hostName} \n Address Visited: $address"
+            ).format(currentTime.time)} \nHost Name: ${visitor.hostName} \nAddress Visited: $address"
         }
     }
 

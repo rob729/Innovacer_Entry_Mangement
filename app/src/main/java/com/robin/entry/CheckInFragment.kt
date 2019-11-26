@@ -89,7 +89,7 @@ class CheckInFragment : Fragment() {
     }
 
     private fun visitorDetails(visitor: Visitor): String {
-        return "Visitor Name: ${visitor.name} \n Visitor Email ID: ${visitor.email} \n Visitor Phone Number: ${visitor.phoneNumber}"
+        return "Visitor Name: ${visitor.name} \nVisitor Email ID: ${visitor.email} \nVisitor Phone Number: ${visitor.phoneNumber}"
     }
 
     private fun clearEditText() {

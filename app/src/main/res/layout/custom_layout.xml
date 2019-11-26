@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/padding_extra_large"
+    android:paddingTop="@dimen/padding_extra_large"
+    android:paddingEnd="@dimen/padding_extra_large">
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_medium"
+        android:layout_marginBottom="@dimen/padding_medium"
+        android:hint="@string/phone_number">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/Phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_phone"
+            android:drawablePadding="@dimen/layout_margin_moderate"
+            android:inputType="number"
+            android:transitionName="emailLoginTransition" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>
